@@ -30,5 +30,5 @@ int main()
     default:
         cout << "Ошибка! Пункт Меню отсудствует!"<<endl;
         break;
-    }
+}
 }
