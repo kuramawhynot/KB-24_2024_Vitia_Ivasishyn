@@ -13,7 +13,11 @@ int main()
     cin>>arr[4];
 
     cout<<"Your numbers: \n";
-    for(int i=0; i<5; i++)
-        cout<<arr[i]<<endl;
-
+    for(int i=0; i<5; i++){
+        if(i>0){
+            cout <<", ";
+        }
+        cout<<arr[i];
+    }
+    cout<<"\n";
 }
